@@ -8,3 +8,5 @@ title:  "Mon Premier Blog !"
 **Hello tout le monde**, c'est mon Premier Blog !!
 
 J'espère que vous l'apprécierez beaucoup.
+
+J'essaie de le rendre visuel 
