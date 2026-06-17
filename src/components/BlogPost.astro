@@ -1,4 +1,12 @@
 ---
 const { title, url } = Astro.props;
+const fontWeight = "bold";
 ---
-<li><a href={url}>{title}</a></li>
+
+<style define:vars={{fontWeight}}>
+  .post {
+    font-weight: var(--fontWeight);
+  }
+</style>
+
+<li><a class="post" href={url}>{title}</a></li>
